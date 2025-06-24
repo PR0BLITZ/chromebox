@@ -1,0 +1,12 @@
+================================================
+Turn OS Verification Off -------------- + + +
+========================
+- Power off machine 
+- Hold recovery button 
+  (Requires a bent paperclip to press and hold down) 
+- CTRL + D   (Developer mode) 
+- ESC?     (You'll hear beeps, loud) 
+- Reboot
+- CTRL + L   ( 2 beeps, loud)
+... more rebooting? CTRL + L
+      ... Several aggressive beeps... 
