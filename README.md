@@ -20,4 +20,14 @@ Goals:
 
 
 Sources of information: 
-- To be updated 
+Chromebox-Related
+- https://www.manualslib.com/manual/1453191/Asus-Chromebox-3.html#manual
+- https://docs.mrchromebox.tech/docs/boot-modes/developer.html
+- https://www.reddit.com/r/chrultrabook/comments/hua761/unable_to_access_boot_menu_of_my_asus_chromebox/
+Disk Burning
+- < TBD
+Logitech
+- < TBD 
+
+Attempts 
+- This did not work sadly https://www.asus.com/us/support/faq/1044169/ 
