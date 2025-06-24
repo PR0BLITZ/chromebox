@@ -3,12 +3,12 @@ ASUS Chromebox recycling tips and tricks for personal record
 
 Setup 
 - TV & HDMI Cable
-- Wired Logitech keyboard   <MODEL INFO HERE>
+- Wired Logitech keyboard   < MODEL INFO HERE
 - Wireless Logitech...
-    - Keyboard   <MODEL INFO HERE> 
-    - Mouse      <MODEL INFO HERE>
+    - Keyboard   < MODEL INFO HERE 
+    - Mouse      < MODEL INFO HERE
 - Chromebox
-    - <STATS HERE> 
+    - < STATS HERE
 
 Accomplished So Far:
 - Got the box to boot into developer mode
