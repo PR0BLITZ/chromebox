@@ -1,4 +1,4 @@
-================================================
+=================================================
 Turn OS Verification Off -------------- + + +
 ========================
 - Power off machine 
@@ -21,7 +21,7 @@ sudo initctl stop powerd (Instructions available on dev screen
 sudo su -  (Passwordless root auth) 
 crossystem dev_boot_altfw=1  (This enables the Legasy Boot Mode / Alternative Bootloader (AltFw) and will provide a method to allow alternate OS booting. Exciting!) 
 
-==================================================
+===================================================
 Alternate OS Configuration -------------- + + +
 ==========================
 Source: https://docs.mrchromebox.tech/docs/fwscript.html
@@ -30,7 +30,13 @@ Goal: dual-boot Chromebox with ChromeOS and Arch Linux (let's hope this thing ca
 exit (Leave root escalation)
 ensure you are at ~ (It's the default when exiting root, but just in case, "cd ~ ")
 curl -LO mrchromebox.tech/firmware-util.sh && sudo bash firmware-util.sh
+Choose "Install/Update RW_LEGACY Firmware" 
 
+
+
+
+Interesting notes: 
+- Chromeboxes store their Ethernet MAC address in the RO_VPD (read-only vital product data) region of the stock firmware. 
 
 
 
