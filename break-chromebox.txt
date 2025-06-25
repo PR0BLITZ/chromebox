@@ -12,8 +12,18 @@ Turn OS Verification Off -------------- + + +
 
 You should see a console. 
 Note: scrolling is not available (as far as I know, yet) on the console screen; however, the arrow keys U/D/L/R work for navigation 
-Source: [src] https://docs.mrchromebox.tech/docs/boot-modes/developer.html
+Source: https://docs.mrchromebox.tech/docs/boot-modes/developer.html
+------------------------------------------------------------------
 - login = chronos (Be quick! If the developer screen cuts out on you, you can always use the previous keys to get back to it on the login screen) 
 - sudo initctl stop powerd (Instructions available on dev screen 
 - sudo su -  (Passwordless root auth) 
-- crossystem dev_boot_altfw=1
+- crossystem dev_boot_altfw=1  (This enables the Legasy Boot Mode / Alternative Bootloader (AltFw) and will provide a method to allow alternate OS booting. Exciting!) 
+
+==================================================
+Alternate OS Configuration -------------- + + +
+==========================
+Source: https://docs.mrchromebox.tech/docs/fwscript.html
+------------------------------------------------------------------
+
+
+
