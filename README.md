@@ -14,11 +14,14 @@ Setup
 Accomplished So Far:
 - Got the box to boot into developer mode
 - Burned Arch onto a flash drive
+- Got CLI to appear
 
 Goals: 
-- Turn this Chromebox into a Linux machine?
-- Dual boot?
+- ChromeBox dual-boot with Arch machine
 
+LEFT OFF: 
+- Disable WP on hardware.
+- Adding more sources
 
 Sources of information: 
 Chromebox-Related
