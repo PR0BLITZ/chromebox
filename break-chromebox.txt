@@ -31,13 +31,17 @@ exit (Leave root escalation)
 ensure you are at ~ (It's the default when exiting root, but just in case, "cd ~ ")
 curl -LO mrchromebox.tech/firmware-util.sh && sudo bash firmware-util.sh
 Choose "Install/Update RW_LEGACY Firmware" 
+Select 'L' for Legacy BIOS 
+N for leaving as CTRL + L requirement (for now) 
 
-
+(Hm, currently stuck on WP being enabled still...) 
+'R' for reboot
+CTRL + L 
 
 
 Interesting notes: 
 - Chromeboxes store their Ethernet MAC address in the RO_VPD (read-only vital product data) region of the stock firmware. 
-
+- neofetch for Arch ASCII
 
 
 
