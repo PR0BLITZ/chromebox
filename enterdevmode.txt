@@ -8,5 +8,5 @@ Turn OS Verification Off -------------- + + +
 - ESC?     (You'll hear beeps, loud) 
 - Reboot
 - CTRL + L   ( 2 beeps, loud)
-... more rebooting? CTRL + L
-      ... Several aggressive beeps... 
+- Hold CTRL + ALT + F2 (Wait until after 2 beeps) 
+- login = chronos (Be quick! If the developer screen cuts out on you, you can always use the previous keys to get back to it on the login screen) [src|https://docs.mrchromebox.tech/docs/boot-modes/developer.html]
