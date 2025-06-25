@@ -8,6 +8,7 @@ Setup
     - USB **Global** Receiver    < M/N C-U9007  
     - Mouse                  < M510
 - Chromebox
+    - Chromebox 3
     - < M/N 7265 NGW
 
 Accomplished So Far:
