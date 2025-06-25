@@ -18,6 +18,7 @@ Accomplished So Far:
 
 Goals: 
 - ChromeBox dual-boot with Arch machine
+- Android apps on ChromeOS development?
 
 LEFT OFF: 
 - Disable WP on hardware.
