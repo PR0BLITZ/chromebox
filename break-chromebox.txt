@@ -21,6 +21,14 @@ sudo initctl stop powerd (Instructions available on dev screen
 sudo su -  (Passwordless root auth) 
 crossystem dev_boot_altfw=1  (This enables the Legasy Boot Mode / Alternative Bootloader (AltFw) and will provide a method to allow alternate OS booting. Exciting!) 
 
+==================================================
+Disable Write-Protection -------------- + + +
+========================
+First, determine which of the following devices matches yours: https://docs.mrchromebox.tech/docs/supported-devices.html 
+I have an ASUS Chromebox 3, so I have two methods of hardware modification: CR50 (SuzyQ), or "screw" ... Hm, this looks like a project for the daytime, and on a spacious surface... 
+
+WIP
+
 ===================================================
 Alternate OS Configuration -------------- + + +
 ==========================
@@ -34,7 +42,7 @@ Choose "Install/Update RW_LEGACY Firmware"
 Select 'L' for Legacy BIOS 
 N for leaving as CTRL + L requirement (for now) 
 
-(Hm, currently stuck on WP being enabled still...) 
+(Hm, currently stuck on WP being enabled still...) see the section above, since this is likely something that should happen before OS config. Unsuure if there's a way to do this via CLI. Will look into this. 
 'R' for reboot
 CTRL + L 
 
