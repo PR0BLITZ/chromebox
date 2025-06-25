@@ -9,4 +9,11 @@ Turn OS Verification Off -------------- + + +
 - Reboot
 - CTRL + L   ( 2 beeps, loud)
 - Hold CTRL + ALT + F2 (Wait until after 2 beeps) 
-- login = chronos (Be quick! If the developer screen cuts out on you, you can always use the previous keys to get back to it on the login screen) [src: https://docs.mrchromebox.tech/docs/boot-modes/developer.html]
+
+You should see a console. 
+Note: scrolling is not available (as far as I know, yet) on the console screen; however, the arrow keys U/D/L/R work for navigation 
+Source: [src] https://docs.mrchromebox.tech/docs/boot-modes/developer.html
+- login = chronos (Be quick! If the developer screen cuts out on you, you can always use the previous keys to get back to it on the login screen) 
+- sudo initctl stop powerd (Instructions available on dev screen 
+- sudo su -  (Passwordless root auth) 
+- crossystem dev_boot_altfw=1
