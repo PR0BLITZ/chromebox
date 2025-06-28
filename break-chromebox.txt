@@ -24,10 +24,9 @@ crossystem dev_boot_altfw=1  (This enables the Legasy Boot Mode / Alternative Bo
 ==================================================
 Disable Write-Protection -------------- + + +
 ========================
-First, determine which of the following devices matches yours: https://docs.mrchromebox.tech/docs/supported-devices.html 
-I have an ASUS Chromebox 3, so I have two methods of hardware modification: CR50 (SuzyQ), or "screw" ... Hm, this looks like a project for the daytime, and on a spacious surface... 
-
-WIP
+First, determine which of the following devices matches yours: https://docs.mrchromebox.tech/docs/supported-devices.html ... I have an ASUS Chromebox 3, so I have two methods of hardware modification: CR50 (SuzyQ), or "screw" ... 
+Second, remove the screw from the Chromebox. 
+See the "images" folder in this repo. Also see: https://docs.mrchromebox.tech/images/wp/fizz_wp.jpg 
 
 ===================================================
 Alternate OS Configuration -------------- + + +
@@ -45,6 +44,8 @@ N for leaving as CTRL + L requirement (for now)
 (Hm, currently stuck on WP being enabled still...) see the section above, since this is likely something that should happen before OS config. Unsuure if there's a way to do this via CLI. Will look into this. 
 'R' for reboot
 CTRL + L 
+
+
 
 
 Interesting notes: 
