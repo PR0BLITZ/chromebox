@@ -27,6 +27,7 @@ Disable Write-Protection -------------- + + +
 First, determine which of the following devices matches yours: https://docs.mrchromebox.tech/docs/supported-devices.html ... I have an ASUS Chromebox 3, so I have two methods of hardware modification: CR50 (SuzyQ), or "screw" ... 
 Second, remove the screw from the Chromebox. 
 See the "images" folder in this repo. Also see: https://docs.mrchromebox.tech/images/wp/fizz_wp.jpg 
+I put the screw in the side of the box so it wouldn't get lost -- You can dispose of it if you wish. 
 
 ===================================================
 Alternate OS Configuration -------------- + + +
