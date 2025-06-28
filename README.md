@@ -13,15 +13,16 @@ Setup
 
 Accomplished So Far:
 - Got the box to boot into developer mode
-- Burned Arch onto a flash drive
+- Burned Arch onto a flash drive (guide TBD)
 - Got CLI to appear
+- Removed secrity screw 
 
 Goals: 
 - ChromeBox dual-boot with Arch machine
-- Android apps on ChromeOS development?
+- Android apps on ChromeOS for development?
 
 LEFT OFF: 
-- Disable WP on hardware.
+- Test disabled WP from screw removal 
 - Adding more sources
 
 Sources of information: 
