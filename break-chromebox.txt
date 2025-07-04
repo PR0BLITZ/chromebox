@@ -8,13 +8,13 @@ Turn OS Verification Off -------------- + + +
 - ESC?     (You'll hear beeps, loud) 
 - Reboot
 - CTRL + L   ( 2 beeps, loud)
-- Hold CTRL + ALT + F2 (Wait until after 2 beeps) 
+- Hold CTRL + ALT + F2 (Wait until after 2 beeps/until "ChromeOS" screen appears) 
 
 You should see a console. 
 Note: scrolling is not available (as far as I know, yet) on the console screen; however, the arrow keys U/D/L/R work for navigation 
 Source: https://docs.mrchromebox.tech/docs/boot-modes/developer.html
 ------------------------------------------------------------------
-login = chronos (Be quick! If the developer screen cuts out on you, you can always use the previous keys to get back to it on the login screen) 
+login = chronos (Be quick!) 
 (optional, informational) uname -a
 (optional, informational) ip a
 sudo initctl stop powerd (Instructions available on dev screen 
@@ -27,7 +27,7 @@ Disable Write-Protection -------------- + + +
 First, determine which of the following devices matches yours: https://docs.mrchromebox.tech/docs/supported-devices.html ... I have an ASUS Chromebox 3, so I have two methods of hardware modification: CR50 (SuzyQ), or "screw" ... 
 Second, remove the screw from the Chromebox. 
 See the "images" folder in this repo. Also see: https://docs.mrchromebox.tech/images/wp/fizz_wp.jpg 
-I put the screw in the side of the box so it wouldn't get lost -- You can dispose of it if you wish. 
+I put the screw on the side of the box so it wouldn't get lost -- You can dispose of it if you wish. 
 
 ===================================================
 Alternate OS Configuration -------------- + + +
@@ -41,10 +41,10 @@ curl -LO mrchromebox.tech/firmware-util.sh && sudo bash firmware-util.sh
 Choose "Install/Update RW_LEGACY Firmware" 
 Select 'L' for Legacy BIOS 
 N for leaving as CTRL + L requirement (for now) 
-
-(Hm, currently stuck on WP being enabled still...) see the section above, since this is likely something that should happen before OS config. Unsuure if there's a way to do this via CLI. Will look into this. 
+Ensure the security screw is removed
 'R' for reboot
 CTRL + L 
+
 
 
 
@@ -52,6 +52,9 @@ CTRL + L
 Interesting notes: 
 - Chromeboxes store their Ethernet MAC address in the RO_VPD (read-only vital product data) region of the stock firmware. 
 - neofetch for Arch ASCII
+
+Accidents and Fixes: 
+Somewhere in section 3, I ran the firmware-util.sh script and changed the boot order to "boot menu for 30 seconds" which got me stuck in a neverending loop of 
 
 
 
