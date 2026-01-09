@@ -45,7 +45,12 @@ Ensure the security screw is removed
 'R' for reboot
 CTRL + L 
 
-
+I took a 7 month break. 
+Ensure your keyboard (a wired keyboard will likely work, because for me, a wireless keyboard did not) and mouse (might be able to be wireless, since I can use a wireless mouse) and bootable USB drive are plugged into the Chrome box. 
+When powering on the machine, click and hold [ESC]. You should see a white screen with a warning: "OS verification is OFF" 
+Ignore that warning, and hold [ESC] while waiting. You will hear 2 beeps and eventually see a black screen. This will help you choose your boot device. Thank you Mr. Chromebox! 
+You should then, after clicking [ESC] again to get to the boot options, see the bootable USB. Click the number corresponding to it. For me, it was [2]. 
+Next, you will see a white screen with "Ventoy" written on it. This is where you can select the OS image to boot. I'm trying Arch and hoping it goes well. 
 
 
 
