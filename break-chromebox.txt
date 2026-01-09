@@ -51,7 +51,8 @@ When powering on the machine, click and hold [ESC]. You should see a white scree
 Ignore that warning, and hold [ESC] while waiting. You will hear 2 beeps and eventually see a black screen. This will help you choose your boot device. Thank you Mr. Chromebox! 
 You should then, after clicking [ESC] again to get to the boot options, see the bootable USB. Click the number corresponding to it. For me, it was [2]. 
 Next, you will see a white screen with "Ventoy" written on it. This is where you can select the OS image to boot. I'm trying Arch and hoping it goes well. 
-
+You can click some of the F keys for other options to look at, but I didn't quite successfully return to previous pages, so I had to reboot a lot. 
+Select your OS of choice, and congrats you did it!
 
 
 Interesting notes: 
@@ -59,7 +60,7 @@ Interesting notes:
 - neofetch for Arch ASCII
 
 Accidents and Fixes: 
-Somewhere in section 3, I ran the firmware-util.sh script and changed the boot order to "boot menu for 30 seconds" which got me stuck in a neverending loop of 
+Somewhere in section 3, I ran the firmware-util.sh script and changed the boot order to "boot menu for 30 seconds" which got me stuck in a neverending loop of some kind (this happened 7 months ago and I never finished my sentence). 
 
 
 
