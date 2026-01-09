@@ -15,11 +15,14 @@ Accomplished So Far:
 - Got the box to boot into developer mode
 - Burned Arch onto a flash drive (guide TBD)
 - Got CLI to appear
-- Removed secrity screw 
+- Removed secrity screw
+- Got Arch to boot from USB, but not quite properly
 
 Goals: 
 - ChromeBox dual-boot with Arch machine
 - Android apps on ChromeOS for development?
+- SCRATCH THAT--I don't want ChromeOS!!
+- Delete ChromeOS completely
 
 LEFT OFF: 
 - Test disabled WP from screw removal 
