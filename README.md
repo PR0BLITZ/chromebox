@@ -2,7 +2,7 @@
 ASUS Chromebox recycling tips and tricks for personal record
 
 Setup 
-- TV & HDMI Cable
+- Monitor & HDMI Cable
 - Wired Logitech keyboard    < M/N Y-UC29 
 - Wireless Logitech...
     - USB **Global** Receiver    < M/N C-U9007  
