@@ -45,7 +45,9 @@ Ensure the security screw is removed
 'R' for reboot
 CTRL + L 
 
-I took a 7 month break. 
+==========================
+DISREGARD THIS SECTION ---- I took a 7 month break. 
+==========================
 Ensure your keyboard (a wired keyboard will likely work, because for me, a wireless keyboard did not) and mouse (might be able to be wireless, since I can use a wireless mouse) and bootable USB drive are plugged into the Chrome box. 
 When powering on the machine, click and hold [ESC]. You should see a white screen with a warning: "OS verification is OFF" 
 Ignore that warning, and hold [ESC] while waiting. You will hear 2 beeps and eventually see a black screen. This will help you choose your boot device. Thank you Mr. Chromebox! 
@@ -54,6 +56,11 @@ Next, you will see a white screen with "Ventoy" written on it. This is where you
 You can click some of the F keys for other options to look at, but I didn't quite successfully return to previous pages, so I had to reboot a lot. 
 Select your OS of choice, and congrats you did it!
 
+==========================
+CONTINUE HERE 
+==========================
+I actually bricked the thing. The "neverending loop" I was stuck in once was consistently getting stuck on the "OS verification is OFF" and then a black boot-item screen. Which is where I techncially am stuck right now. My goal is to wipe ChromeOS entirely, and the way to get there was through Mr. Chromebox's firmware program, which I somehow lost? 
+>> NEXT STEPS: https://docs.mrchromebox.tech/docs/getting-started.html 
 
 Interesting notes: 
 - Chromeboxes store their Ethernet MAC address in the RO_VPD (read-only vital product data) region of the stock firmware. 
