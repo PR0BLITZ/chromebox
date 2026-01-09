@@ -1,5 +1,5 @@
 # chromebox
-ASUS Chromebox recycling tips and tricks for personal record
+ASUS Chromebox recycling tips and tricks for personal record. Also, I want this to be simple and comprehensive enough to be followed. 
 
 Setup 
 - Monitor & HDMI Cable
@@ -30,7 +30,7 @@ Chromebox-Related
 - https://www.manualslib.com/manual/1453191/Asus-Chromebox-3.html#manual
 - https://docs.mrchromebox.tech/docs/boot-modes/developer.html
 - https://www.reddit.com/r/chrultrabook/comments/hua761/unable_to_access_boot_menu_of_my_asus_chromebox/
-Disk Burning
+ISO Burning
 - Ventoy Software 
 Logitech
 - < TBD 
